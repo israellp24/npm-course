@@ -1,0 +1,22 @@
+{
+  "name": "npm-course",
+  "version": "1.0.0",
+  "description": "Construir un paquete para node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israellp24/npm-course.git"
+  },
+  "keywords": [
+    "javascript,node"
+  ],
+  "author": "Israel Lopez <israellopezperez618@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/israellp24/npm-course/issues"
+  },
+  "homepage": "https://github.com/israellp24/npm-course#readme"
+}

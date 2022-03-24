@@ -1,0 +1,52 @@
+//Setea la configuracion predeterminada en la PC
+npm set init.autor.email "israellopezperez618@gmail.com"
+
+npm set init.autor.name "israellopezperez"
+
+npm set init.license "MIT"
+
+//Inicializa npm con las configuraciones predeterminadas, sin -y, pide configuraciones
+npm init -y
+
+//instala dependencias, en este caso moment
+npm install moment 
+
+//Indica que este documento debe vivir en produccion
+npm install moment --save
+    o
+npm install moment -S
+
+//Indica que este documento debe vivir solo en test
+npm install moment --save-dev
+    o
+npm install moment -D
+
+//paquetes recomendables a instalar
+npm install date-fns --save-dev //manejar fechas y datos
+npm i date-fns -D 
+npm install nodemon //Paquete global (En toda la PC), este es un demonio que se encarga de monitorear cambios
+
+
+//Ver paquetes globales en nuestra PC
+npm list -g --depth 0
+
+// reinstala los paquetes declarados en el package
+npm install
+
+//Lista los paquetes de mi proyecto
+npm list
+
+//Ver paquetes desactualizados
+npm outdate
+
+//Actualiar paquetes
+npm update
+
+//instalar la ultima version del paquete
+npm install [paquete]@latest
+
+//desinstalar Paquete
+npm uninstall json-server
+
+//desinstalar paquete sin eliminarlo del package.json
+npm uninstall [paquete] --no-save

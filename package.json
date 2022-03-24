@@ -1,0 +1,30 @@
+{
+  "name": "npm-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israellp24/npm-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/israellp24/npm-course/issues"
+  },
+  "homepage": "https://github.com/israellp24/npm-course#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.28.0",
+    "webpack": "^5.70.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
