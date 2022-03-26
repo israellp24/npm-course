@@ -24,7 +24,7 @@ npm install moment -D
 //paquetes recomendables a instalar
 npm install date-fns --save-dev //manejar fechas y datos
 npm i date-fns -D 
-npm install nodemon //Paquete global (En toda la PC), este es un demonio que se encarga de monitorear cambios
+npm install -g nodemon //Paquete global (En toda la PC), este es un demonio que se encarga de monitorear cambios
 
 
 //Ver paquetes globales en nuestra PC
